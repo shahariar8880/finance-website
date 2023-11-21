@@ -17,6 +17,7 @@ nav {
                                                 
 }
 
+
 .nav-left {
     display: flex;
     flex-direction: row;
@@ -24,6 +25,11 @@ nav {
     gap: 2rem;
 }
 
+
+.nav-left i {
+    display: none;
+    font-size: 2rem;
+}
 .nav-left a {
     text-decoration: none;
     color: black;
@@ -131,4 +137,61 @@ nav {
 
 .pakage-1 .img-graph {
     padding-bottom: 20px;
+}
+
+/* responsive */
+
+@media (max-width:600px) {
+
+    .hero-section {
+        height: 260vh;
+    }
+    /* nav section */
+    nav {
+        padding: 10px 25px;
+    }
+
+    .nav-left a {
+        display: none;
+    }
+
+    .nav-left i {
+        display: block;
+    }
+
+    .nav-right a {
+        font-size: 22px;
+    }
+
+    .nav-img {
+        display: none;
+    }
+    
+    /* hero-section */
+
+    .hero-section .one-div {
+        padding-left: 25px;
+        padding-top:5vh;
+    }
+
+    /* .second-div */
+
+    .second-div {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .pakage-1 { 
+        margin-top: 80px;
+        height: 41vh;
+        width: 70vw;
+        background-color: #1F0704;
+        color: #fff;
+        border-radius : 65px 65px 65px 68px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
 }

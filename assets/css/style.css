@@ -1,0 +1,134 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Helvetica Neue', sans-serif;
+}
+
+
+
+nav {
+    padding: 30px 65px;
+    height: 16vh;
+    background-color: #FAD5C3;
+    display: flex;
+    justify-content: space-between;
+   
+                                                
+}
+
+.nav-left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+}
+
+.nav-left a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+
+
+}
+
+
+.nav-right {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    align-items: center;
+}
+
+.nav-right a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+
+}
+
+.nav-img {
+    display: flex;
+    height: 50px;
+    gap: 25px;
+}
+
+/* hero section */
+
+.hero-section {
+    height: 120vh;
+    background-color: #FAD5C3;
+    background-image: url(https://aggre.io/_next/static/media/hero-bg.9c1d1bfe.svg);
+    background-size: cover;
+}
+
+.hero-section .one-div {
+    padding-left: 65px;
+    padding-top:15vh;
+}
+
+.one-div img {
+    height: 7vh;
+}
+
+.one-div h1 {
+    font-size: 4.5rem;
+    font-weight: 900;
+    line-height: .8;
+}
+
+.one-div p {
+    padding: 15px 0;
+    padding-bottom: 30px ;
+    font-size: 16px;
+    letter-spacing: 1px;
+
+}
+
+.one-div a {
+    text-decoration: none;
+    font-size: .8rem;
+    font-weight: 400;
+    color: #fff;
+    padding: 10px 15px;
+    background-color: #FF7C5C;
+    border-radius: 4px;
+}
+
+/* pakage */
+
+.second-div {
+    padding: 0 65px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.pakage-1 { 
+    margin-top: 80px;
+    height: 41vh;
+    width: 20vw;
+    background-color: #1F0704;
+    color: #fff;
+    border-radius : 65px 65px 65px 68px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pakage-1 h1 {
+    font-weight: 750;
+}
+
+.img-info p {
+    font-size: 16px;
+}
+
+.pakage-1 .img-info {
+    padding-top: 30px;
+    padding-right: 55px;
+}
+
+.pakage-1 .img-graph {
+    padding-bottom: 20px;
+}
